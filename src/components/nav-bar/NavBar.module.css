@@ -1,0 +1,15 @@
+.navBarContainer {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  background-color: #333;
+  padding: 20px 30px;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 0;
+}
+
+.navBarItem {
+  color: #fff;
+  text-decoration: none;
+}

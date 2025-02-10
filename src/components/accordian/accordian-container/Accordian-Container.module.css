@@ -1,0 +1,26 @@
+.accordianContainerStyle {
+  border: 1px solid rgb(172, 172, 172);
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accordianContainerLabel {
+  margin: 0px;
+  padding: 0px;
+}
+
+.accordianContainerContentStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 0;
+  margin-top: 0px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.open {
+  max-height: 1000px;
+  margin-top: 20px;
+}
